@@ -1,0 +1,10 @@
+<hibernate-configuration>
+    <session-factory>
+        <!--Database connection settings -->
+        <property name="connection.driver_class">org.hsqldb.jdbcDriver</property >
+        <property name="connection.url">jdbc:hsqldb:file:./data/treehouse</property>
+
+        <!-- SQL dialect-->
+        <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+    </session-factory>
+</hibernate-configuration>
